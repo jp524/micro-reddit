@@ -1,24 +1,11 @@
-# README
+# Odin Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Built as part of [The Odin Project's Full Stack Ruby on Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails?) curriculum.
 
-Things you may want to cover:
+This app contains basic data structures behind posting links and comments on a website like Reddit. Three models are used and associated: `User`, `Post`, `Comments`.
+A user can have multiple posts and comments. Comments are written by users for a specific post.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Techniques Implemented
+- Active Record migrations
+- Active Record validations (`presence`, `length`, `uniqueness`)
+- Active Record associations (`has_many`, `belongs_to`)
